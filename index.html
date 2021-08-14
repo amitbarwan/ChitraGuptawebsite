@@ -49,7 +49,7 @@ p1{
 </style>
 
 <body style="background:rgb(101, 101, 243);">
-    <h2>Barwan Sri ChitraGupta Temple Website</h2>
+    <h2>Barwan Sri ChitraGupta Temple Website</h2>    
     <p1 style="background-color: red;">This website is under construction!</p1>
  
     
@@ -60,7 +60,8 @@ p1{
         <button class="tablinks" onmouseover="openCity(event, 'Location')">Location</button> 
         <button class="tablinks" onmouseover="openCity(event, 'Donation')">Donation</button>
         <button class="tablinks" onmouseover="openCity(event, 'Pictures')">Pictures</button>
-        <button class="tablinks" onclick="openCity(event, 'Suggestion')">Suggestion</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Suggestion')">Suggestion</button>
+        <button class="tablinks" onmouseover="openCity(event, 'ImportantLink')">ImportantLink</button>
     </div>   
     <div id="Location" class="tabcontent">
         <p style="visibility: inherit;"><b>Address:-</b></p>
@@ -114,13 +115,21 @@ p1{
         <p><b>Dr.Satya Prakash (Media Charge)</b></p>
         <p>Mob : +91-9471040259</p>       
     </div>
-    <div id="Suggestion" class="tabcontent">    
+    <div id="Suggestion" class="tabcontent">
+      
       <form method="POST" action="/hello">
         <input name="name" />
         <br/>
         <button>Submit</button>
       </form>    
-    </div>   
+    </div>
+    <div id="ImportantLink" class="tabcontent">
+      <!-- target attribute is to open in new tab -->
+      <p><strong>Below is link about Sri ChitaGupta Ji Maharaj</strong> </p>
+      <a href="https://www.google.com/search?q=%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%97%E0%A5%81%E0%A4%AA%E0%A5%8D%E0%A4%A4+%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80+%E0%A4%87%E0%A4%A8+%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80&sxsrf=ALeKk01z3YuFOzLFYhdlMIQSDG8gh_7oxw%3A1628935549860&ei=fZUXYZztM-GX4-EP0KyI6AE&oq=chitragupta+his&gs_lcp=Cgdnd3Mtd2l6EAEYAjIFCAAQgAQyBQgAEIAEMgcIABACEMsBMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6CgguELADEEMQiwM6BAgjECc6BAgAEEM6CwguEIAEEMcBEK8BOgoIABCABBCHAhAUOgsIABCABBCxAxCDAToICAAQgAQQyQNKBQg8EgExSgQIQRgBUJqYGVj9thlg8s0ZaAFwAHgAgAGXAYgBmgiSAQMwLjiYAQCgAQHIAQm4AQLAAQE&sclient=gws-wiz"target="_blank">Got to Link</a> 
+      <p><br><strong>Below is link about Sri ChitaGupta Ji Maharaj Puja Vidhi</strong> </p>
+      <a href="https://www.google.com/search?q=chitra+gupta+ji+puja+vidhi&oq=chitra+gupta+ji+puja+vidhi&aqs=chrome..69i57j33i22i29i30.22483j0j15&sourceid=chrome&ie=UTF-8" target="_blank">Got to Link</a>   
+    </div>    
 
 <script>
 
