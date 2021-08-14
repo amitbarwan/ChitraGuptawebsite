@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barwan ChitraGupta Temple</title>
+</head>
+<style>
+   h2{
+       color: black;
+       
+       font-size: 600;
+       text-align: center;
+   }
+   image{
+       image-rendering: pixelated;
+       left: 200;
+   }
+   .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color:#f1f1f1;
+  }
+.tab button {
+  background-color: inherit;
+  float: left;
+  border:darkgreen;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: green;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+p1{
+
+  text-align: ri;
+  border: 1px solid #ccc;
+}
+</style>
+
+<body style="background:rgb(101, 101, 243);">
+    <h2>Barwan Sri ChitraGupta Temple Website</h2>
+    <p1 style="background-color: red;">This website is under construction!</p1>
+ 
+    
+    <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'Home')">Home</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Establish')">Establish</button>
+        <button class="tablinks" onmouseover="openCity(event, 'CoreTeam')">CoreTeam</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Location')">Location</button> 
+        <button class="tablinks" onmouseover="openCity(event, 'Donation')">Donation</button>
+        <button class="tablinks" onmouseover="openCity(event, 'Pictures')">Pictures</button>
+        <button class="tablinks" onclick="openCity(event, 'Suggestion')">Suggestion</button>
+    </div>   
+    <div id="Location" class="tabcontent">
+        <p style="visibility: inherit;"><b>Address:-</b></p>
+        <p style="visibility: inherit;">Sri ChitraGupta Seva Samiti</p>
+        <p style="visibility: inherit;">Functional Office</p>
+        <p style="visibility: inherit;">Barwan, PO-Mirganj</p>
+        <p style="visibility: inherit;">District-Gopalganj,BIHAR-841438</p>
+        <p style="visibility: inherit;">Email:- srichitraguptsewasamitee@gmail.com</p>
+    </div>
+    <div id="Home" class="tabcontent">
+        <img src = "Mandir1.jpg" width="460" height="345">
+        <img src = "Mandir2.jpg" width="460" height="345">
+        <img src = "ChitraGupta.JPG" width="460" height="345">
+      
+      
+    </div>
+    <div id="Donation" class="tabcontent">
+        <p>Below are list of Contributors to build this temple!</p>
+        <img src = "DN1_1.JPG">
+        <img src = "donation.JPG">
+        <img src = "DN3_3.JPG">
+        <img src = "DN4.JPG">
+    </div> 
+    <div id="Establish" class="tabcontent">
+        <p><b>This temple became ready in year 2018!</b></p>    
+    </div>
+    <div id="Pictures" class="tabcontent">
+        <img src ="prg1.jpg">
+        <img src ="Prg2.jpg">  
+        <img src ="Prg3.jpg"> 
+        <img src ="Prg4.jpg"> 
+        <img src ="Prg5.jpg">  
+            
+    </div>
+    <div id="CoreTeam" class="tabcontent">
+        <p><b>Sri Shailendra Pratab Shahi (Founder)</b></p>
+        <p>Mob : +91-9431874043</p>
+        <p></p>
+        <p><b>Dr.RamVishnu Prasad (President)</b></p>
+        <p>Mob : +91-9939969694</p>
+        <p></p>
+        <p><b>Sri Chiranjivi Prasad (Vice-President)</b></p>
+        <p>Mob : +91-7739018006</p>
+        <p></p>
+        <p><b>Sri Dilip Kumar Srivastav (Secretary)</b></p>
+        <p>Mob : +91-9934466515</p>
+        <p></p>
+        <p><b>Sri Pushp Raj (Treasurer)</b></p>
+        <p>Mob : +91-9472336141</p>
+        <p></p>
+        <p><b>Dr.Satya Prakash (Media Charge)</b></p>
+        <p>Mob : +91-9471040259</p>       
+    </div>
+    <div id="Suggestion" class="tabcontent">    
+      
+      client.connect(function(err) {
+        assert.equal(null, err);
+        console.log('Connected successfully to server');
+        const db = client.db(ChigraGuptaSamitiDb);
+        db.suggestion('demo').insert({demo: 'test'});
+
+      client.close();});
+      <form method="POST" action="/hello">
+        <input name="name" />
+        <br/>
+        <button>Submit</button>
+      </form>    
+    </div>   
+
+<script>
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+}
+
+
+
+</script>
+
+</body>
+
+</html>
