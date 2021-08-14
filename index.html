@@ -1,157 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barwan ChitraGupta Temple</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barwan ChitraGupta Temple</title>
 </head>
 <style>
-   h2{
-       color: black;
-       
-       font-size: 600;
-       text-align: center;
-   }
-   image{
-       image-rendering: pixelated;
-       left: 200;
-   }
-   .tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color:#f1f1f1;
-  }
-.tab button {
-  background-color: inherit;
-  float: left;
-  border:darkgreen;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-.tab button:hover {
-  background-color: green;
-}
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-p1{
+  h2 {
+    color: black;
 
-  text-align: ri;
-  border: 1px solid #ccc;
-}
+    font-size: 600;
+    text-align: center;
+  }
+
+  image {
+    image-rendering: pixelated;
+    left: 200;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: darkgreen;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  .tab button:hover {
+    background-color: green;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  p1 {
+
+    text-align: ri;
+    border: 1px solid #ccc;
+  }
 </style>
 
 <body style="background:rgb(101, 101, 243);">
-    <h2>Barwan Sri ChitraGupta Temple Website</h2>    
-    <p1 style="background-color: red;">This website is under construction!</p1>
- 
-    
-    <div class="tab">
-        <button class="tablinks" onmouseover="openCity(event, 'Home')">Home</button>
-        <button class="tablinks" onmouseover="openCity(event, 'Establish')">Establish</button>
-        <button class="tablinks" onmouseover="openCity(event, 'CoreTeam')">CoreTeam</button>
-        <button class="tablinks" onmouseover="openCity(event, 'Location')">Location</button> 
-        <button class="tablinks" onmouseover="openCity(event, 'Donation')">Donation</button>
-        <button class="tablinks" onmouseover="openCity(event, 'Pictures')">Pictures</button>
-        <button class="tablinks" onmouseover="openCity(event, 'Suggestion')">Suggestion</button>
-        <button class="tablinks" onmouseover="openCity(event, 'ImportantLink')">ImportantLink</button>
-    </div>   
-    <div id="Location" class="tabcontent">
-        <img src="Board.JPG" width="460" height="345">
-        <p style="visibility: inherit;"><b>Address:-</b></p>
-        <p style="visibility: inherit;">Sri ChitraGupta Seva Samiti</p>
-        <p style="visibility: inherit;">Functional Office</p>
-        <p style="visibility: inherit;">Barwan, PO-Mirganj</p>
-        <p style="visibility: inherit;">District-Gopalganj,BIHAR-841438</p>
-        <p style="visibility: inherit;">Email:- srichitraguptsewasamitee@gmail.com</p>
-    </div>
-    <div id="Home" class="tabcontent">
-        <img src = "Mandir1.jpg" width="460" height="345">
-        <img src = "Mandir2.jpg" width="460" height="345">
-        <img src = "ChitraGupta.JPG" width="460" height="345">
-      
-      
-    </div>
-    <div id="Donation" class="tabcontent">
-        <p>Below are list of Contributors to build this temple!</p>
-        <img src = "DN1_1.JPG">
-        <img src = "donation.JPG">
-        <img src = "DN3_3.JPG">
-        <img src = "DN4.JPG">
-    </div> 
-    <div id="Establish" class="tabcontent">
-        <p><b>This temple became ready in year 2018!</b></p>    
-    </div>
-    <div id="Pictures" class="tabcontent">
-        <img src ="prg1.jpg">
-        <img src ="Prg2.jpg">  
-        <img src ="Prg3.jpg"> 
-        <img src ="Prg4.jpg"> 
-        <img src ="Prg5.jpg">  
-            
-    </div>
-    <div id="CoreTeam" class="tabcontent">
-        <p><b>Sri Shailendra Pratab Shahi (Founder)</b></p>
-        <p>Mob : +91-9431874043</p>
-        <p></p>
-        <p><b>Dr.RamVishnu Prasad (President)</b></p>
-        <p>Mob : +91-9939969694</p>
-        <p></p>
-        <p><b>Sri Chiranjivi Prasad (Vice-President)</b></p>
-        <p>Mob : +91-7739018006</p>
-        <p></p>
-        <p><b>Sri Dilip Kumar Srivastav (Secretary)</b></p>
-        <p>Mob : +91-9934466515</p>
-        <p></p>
-        <p><b>Sri Pushp Raj (Treasurer)</b></p>
-        <p>Mob : +91-9472336141</p>
-        <p></p>
-        <p><b>Dr.Satya Prakash (Media Charge)</b></p>
-        <p>Mob : +91-9471040259</p>       
-    </div>
-    <div id="Suggestion" class="tabcontent">
-      
-      <form method="POST" action="/hello">
-        <input name="name" />
-        <br/>
-        <button>Submit</button>
-      </form>    
-    </div>
-    <div id="ImportantLink" class="tabcontent">
-      <!-- target attribute is to open in new tab -->
-      <p><strong>Below is link about Sri ChitaGupta Ji Maharaj</strong> </p>
-      <a href="https://www.google.com/search?q=%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%97%E0%A5%81%E0%A4%AA%E0%A5%8D%E0%A4%A4+%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80+%E0%A4%87%E0%A4%A8+%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80&sxsrf=ALeKk01z3YuFOzLFYhdlMIQSDG8gh_7oxw%3A1628935549860&ei=fZUXYZztM-GX4-EP0KyI6AE&oq=chitragupta+his&gs_lcp=Cgdnd3Mtd2l6EAEYAjIFCAAQgAQyBQgAEIAEMgcIABACEMsBMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6CgguELADEEMQiwM6BAgjECc6BAgAEEM6CwguEIAEEMcBEK8BOgoIABCABBCHAhAUOgsIABCABBCxAxCDAToICAAQgAQQyQNKBQg8EgExSgQIQRgBUJqYGVj9thlg8s0ZaAFwAHgAgAGXAYgBmgiSAQMwLjiYAQCgAQHIAQm4AQLAAQE&sclient=gws-wiz"target="_blank">Got to Link</a> 
-      <p><br><strong>Below is link about Sri ChitaGupta Ji Maharaj Puja Vidhi</strong> </p>
-      <a href="https://www.google.com/search?q=chitra+gupta+ji+puja+vidhi&oq=chitra+gupta+ji+puja+vidhi&aqs=chrome..69i57j33i22i29i30.22483j0j15&sourceid=chrome&ie=UTF-8" target="_blank">Got to Link</a>   
-    </div>    
-
-<script>
-
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-
-}
+  <h2>Barwan Sri ChitraGupta Temple Website</h2>
+  <p1 style="background-color: red;">This website is under construction!</p1>
 
 
+  <div class="tab">
+    <button class="tablinks" onmouseover="openCity(event, 'Home')">Home</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Establish')">Establish</button>
+    <button class="tablinks" onmouseover="openCity(event, 'CoreTeam')">CoreTeam</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Location')">Location</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Donation')">Donation</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Pictures')">Pictures</button>
+    <button class="tablinks" onmouseover="openCity(event, 'Suggestion')">Suggestion</button>
+    <button class="tablinks" onmouseover="openCity(event, 'ImportantLink')">ImportantLink</button>
+  </div>
+  <div id="Location" class="tabcontent">
+    <img src="Board.JPG" width="460" height="345">
+    <p style="visibility: inherit;"><b>Address:-</b></p>
+    <p style="visibility: inherit;">Sri ChitraGupta Seva Samiti</p>
+    <p style="visibility: inherit;">Functional Office</p>
+    <p style="visibility: inherit;">Barwan, PO-Mirganj</p>
+    <p style="visibility: inherit;">District-Gopalganj,BIHAR-841438</p>
+    <p style="visibility: inherit;">Email:- srichitraguptsewasamitee@gmail.com</p>
+  </div>
+  <div id="Home" class="tabcontent">
+    <img src="Mandir1.jpg" width="460" height="345">
+    <img src="Mandir2.jpg" width="460" height="345">
+    <img src="ChitraGupta.JPG" width="460" height="345">
 
-</script>
+
+  </div>
+  <div id="Donation" class="tabcontent">
+    <p>Below are list of Contributors to build this temple!</p>
+    <img src="DN1_1.JPG">
+    <img src="donation.JPG">
+    <img src="DN3_3.JPG">
+    <img src="DN4.JPG">
+  </div>
+  <div id="Establish" class="tabcontent">
+    <p><b>This temple became ready in year 2018!</b></p>
+  </div>
+  <div id="Pictures" class="tabcontent">
+    <img src="prg1.jpg">
+    <img src="Prg2.jpg">
+    <img src="Prg3.jpg">
+    <img src="Prg4.jpg">
+    <img src="Prg5.jpg">
+
+  </div>
+  <div id="CoreTeam" class="tabcontent">
+    <p><b>Sri Shailendra Pratab Shahi (Founder)</b></p>
+    <p>Mob : +91-9431874043</p>
+    <p></p>
+    <p><b>Dr.RamVishnu Prasad (President)</b></p>
+    <p>Mob : +91-9939969694</p>
+    <p></p>
+    <p><b>Sri Chiranjivi Prasad (Vice-President)</b></p>
+    <p>Mob : +91-7739018006</p>
+    <p></p>
+    <p><b>Sri Dilip Kumar Srivastav (Secretary)</b></p>
+    <p>Mob : +91-9934466515</p>
+    <p></p>
+    <p><b>Sri Pushp Raj (Treasurer)</b></p>
+    <p>Mob : +91-9472336141</p>
+    <p></p>
+    <p><b>Dr.Satya Prakash (Media Charge)</b></p>
+    <p>Mob : +91-9471040259</p>
+  </div>
+  <div id="Suggestion" class="tabcontent">
+
+    <form method="POST" action="/hello">
+      <input name="name" />
+      <br />
+      <button>Submit</button>
+    </form>
+  </div>
+  <div id="ImportantLink" class="tabcontent">
+    <!-- target attribute is to open in new tab -->
+    <p><strong>Below is link about Sri ChitaGupta Ji Maharaj</strong> </p>
+    <a href="https://www.google.com/search?q=%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%97%E0%A5%81%E0%A4%AA%E0%A5%8D%E0%A4%A4+%E0%A4%B9%E0%A4%BF%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80+%E0%A4%87%E0%A4%A8+%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80&sxsrf=ALeKk01z3YuFOzLFYhdlMIQSDG8gh_7oxw%3A1628935549860&ei=fZUXYZztM-GX4-EP0KyI6AE&oq=chitragupta+his&gs_lcp=Cgdnd3Mtd2l6EAEYAjIFCAAQgAQyBQgAEIAEMgcIABACEMsBMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6CgguELADEEMQiwM6BAgjECc6BAgAEEM6CwguEIAEEMcBEK8BOgoIABCABBCHAhAUOgsIABCABBCxAxCDAToICAAQgAQQyQNKBQg8EgExSgQIQRgBUJqYGVj9thlg8s0ZaAFwAHgAgAGXAYgBmgiSAQMwLjiYAQCgAQHIAQm4AQLAAQE&sclient=gws-wiz"
+      target="_blank">Got to Link</a>
+    <p><br><strong>Below is link about Sri ChitaGupta Ji Maharaj Puja Vidhi</strong> </p>
+    <a href="https://www.google.com/search?q=chitra+gupta+ji+puja+vidhi&oq=chitra+gupta+ji+puja+vidhi&aqs=chrome..69i57j33i22i29i30.22483j0j15&sourceid=chrome&ie=UTF-8"
+      target="_blank">Got to Link</a>
+  </div>
+
+  <script>
+
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+
+    }
+
+
+
+  </script>
 
 </body>
 
