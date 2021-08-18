@@ -12,7 +12,25 @@ img{
     width: 69px;
     /* margin-left: 400px; */
     margin-bottom: 0%;
+    border-radius: 50%;
 }
+.tabHeader {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  .tabHeader button {
+      /* background-color: chartreuse; */
+      /* width: 20px;
+      height: 20px; */
+      font-size: 17px;
+      padding-right: 30px;
+      border: none;
+   
+  }
+  button:hover{
+      background-color: green;
+  }
 body
 {
     background-color: #e40b65;
