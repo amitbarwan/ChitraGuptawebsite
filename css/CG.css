@@ -20,6 +20,12 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    /* border-left-width: 0px;
+    margin-left: 178px;
+    border-right-width: 0px;
+    margin-right: 10px;
+    width: 301px; */
+    
 }
   img{
     width: 69px;
