@@ -11,6 +11,9 @@
     font-size: 600;
     font-family: cursive;
 }
+ .tabContent{
+    display: none;
+}
 
 img{
     width: 69px;
