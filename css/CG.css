@@ -13,16 +13,21 @@
 }
  .tabContent{
     display: none;
-}
+    font-family: cursive;
 
-img{
+}
+.tabContent img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+  img{
     width: 69px;
     /* margin-left: 400px; */
     margin-bottom: 0%;
-    border-radius: 50%;
-}
-#Flag img{
-  
+    /* border-radius: 50%; */
+    /* width: 300px;
+    height: 200px; */
 }
 .tabHeader {
     overflow: hidden;
@@ -40,7 +45,7 @@ img{
       padding: 14px 16px;
    
   }
-  button:hover{
+  .tabHeader button:hover{
       background-color: green;
   }
 body
