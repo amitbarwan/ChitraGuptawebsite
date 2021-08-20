@@ -34,6 +34,9 @@
     width: 50px;
     height: 50px;
 }
+#headerPics img{
+    border-radius: 50%;
+}
   img{
     width: 69px;
     /* margin-left: 400px; */
@@ -73,6 +76,15 @@ body
 }
 #Address{
 
-    /* border: green solid; */
+    border: green solid;
     margin-left: 53px;
+     margin-right: 800px;
+    /*padding-right: 200px; */
+}
+#About{
+    /* overflow-y: 100px; */
+    /* border: yellow solid; */
+    margin-left: 701px;
+    margin-top: 1px;
+   
 }
