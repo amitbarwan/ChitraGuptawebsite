@@ -17,7 +17,7 @@
     font-family: cursive;
 
 }
-.tabContent img{
+.tabContent  img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -31,6 +31,7 @@
     width: 301px; */
     
 }
+
 #header img{
     border-radius: 50%;
     width: 20px;
@@ -112,17 +113,29 @@ body
     width: 107px;
     height: 102px;
 }
-#Cultrural{
+.Cultrural{
 
-    border: green solid;
-    width: 130px;
+    /* border: green solid; */
+    /* width: 130px;
     margin-left: 77px;
     border-left-width: 15px;
     padding-left: 0px;
     padding-top: 0px;
-    padding-bottom: 8px;
+    padding-bottom: 8px; */
+    /* background-color: green; */
+    color: blue;
 }
-.galerry{
-    border-left-width: 26px;
+#Gallery{
+    /* border: green solid;
+    display: block;
+    width: 403px;
+    margin-left: 53px;
+    border-left-width: 3px;
+    height: 54px;
+    margin-top: 72px;
+    padding-left: 90px; */
+}
+.Suggestion #Container{
+    border: green solid;
 }
 

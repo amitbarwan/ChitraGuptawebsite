@@ -16,3 +16,11 @@ function TabContentOver(event,TabName){
 //    let para = document.getElementById(TabName);
 //    para.style.display="none";
 // }
+function GetCulturePics(event,GalleryName){
+
+   let button = document.getElementsByClassName("Cultrural");
+  let loc = "./ChitraGuptawebsite/images/Papa.Jpg"
+  console.log(loc)
+  location.href=loc;
+  
+}
