@@ -1,6 +1,7 @@
 function TabContentOver(event,TabName){
    let Overbtn =  document.getElementsByClassName("btnclass");
    let tabcontents = document.getElementsByClassName('tabContent');
+   console.log(tabcontents.length)
    for(let i=0;i<tabcontents.length;++i)
    {
       tabcontents[i].style.display="none";

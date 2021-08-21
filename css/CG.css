@@ -112,4 +112,17 @@ body
     width: 107px;
     height: 102px;
 }
+#Cultrural{
+
+    border: green solid;
+    width: 130px;
+    margin-left: 77px;
+    border-left-width: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+}
+.galerry{
+    border-left-width: 26px;
+}
 
