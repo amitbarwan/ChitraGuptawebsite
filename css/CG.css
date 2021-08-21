@@ -103,6 +103,7 @@ body
 }
 .member{
     /* border: green solid; */
+    margin-left: 79px;
 }
 .member img{
     width: 107px;
