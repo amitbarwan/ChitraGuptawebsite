@@ -101,3 +101,11 @@ body
 #color{
     background-color: black;
 }
+.member{
+    /* border: green solid; */
+}
+.member img{
+    width: 107px;
+    height: 102px;
+}
+
