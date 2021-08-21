@@ -71,7 +71,9 @@
    
   }
   .tabHeader button:hover{
-      background-color: orange;
+      /* background-color: orange; */
+      color: orange;
+      
   }
 body
 {
