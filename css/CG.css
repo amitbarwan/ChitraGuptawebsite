@@ -21,6 +21,7 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin-left: 31px;
     /* margin-left: 50px; */
 }
     /* border-left-width: 0px;
@@ -104,6 +105,8 @@ body
 .member{
     /* border: green solid; */
     margin-left: 79px;
+    margin-top: 0px;
+    margin-bottom: 62px;
 }
 .member img{
     width: 107px;
