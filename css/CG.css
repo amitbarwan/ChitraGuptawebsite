@@ -155,11 +155,12 @@ body
     background-color: rgb(228, 79, 79);
     
 }
-.formgroup input{
+.formgroup input,select{
 
     border-radius: 15px;
     text-align: center;
     padding-top: 5px;margin: 5px;
+    border: black;
    
 }
 
