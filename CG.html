@@ -98,46 +98,35 @@
         <img src="/ChitraGuptawebsite/images/Library2.JPG" alt="">
     </div>
     <div id="Suggestion" class="tabContent">
-        <div id="Container">
-        <form action="">
-            <label for="test">Name:</label>
-            <div>
-              <input type="text" id="test">
-            </div>
-            <br>
-            <label for="test2">Mobile No:</label>
-            <div>
-              <input type="tel" name="" id="test2">
-            </div>
-            <br>
-            <label for="test3">Email Id:</label>
-            <div>
-              <input type="email" name="" id="test3">
-            </div>
-            <br>
-            <div>
-              <label for="gender">Gender:</label>
-              <select name="" id="gender">
-                <option value="">Select</option>
-                <option value="">Male</option>
-                <option value="">Female</option>
-                <option value="">Other</option>
-              </select>
-            </div>
-            <!-- <div>
-              Gender: Male <input type="radio" name="myGender" id=""> Female <input type="radio" name="myGender" id="">
-              Other<input type="radio" name="myGender" id="">
-            </div> -->
-            <br>
-            <label for="">Suggestion:</label>
-            <div>
-              <textarea name="" id="" cols="50" rows="10"></textarea>
-            </div>
-            <br>
-            <div>
-              <input type="submit" value="Submit Now"> <input type="reset" value="Reset Now">
-            </div>
-          </form>
+        <div class="Container">
+            <form action="formaction">
+                <!-- <label for="test">Name:</label> -->
+                <div class="formgroup">
+                    <input type="text" id="test" placeholder="Enter your Name">
+                </div>
+                <div class="formgroup">
+                    <input type="tel" name="" id="test2" placeholder="Enter your mobile number">
+                </div>
+                <div class="formgroup">
+                    <input type="email" name="" id="test3" placeholder="Enter your email id">
+                </div>
+
+                <div class="formgroup">
+                    <input type="email" name="" id="test3" placeholder="Select Gender">
+                    <select name="" id="gender">
+                        <option value="">Select</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+                <textarea name="" id="" cols="50" rows="10" placeholder="Enter your suggestion"></textarea>
+              
+                <div class="formgroup">
+                    <input type="submit" value="Submit Now"> 
+                    <input type="reset" value="Reset Now">
+                </div>
+            </form>
         </div>
     </div>
     <div id="Important Link" class="tabContent">

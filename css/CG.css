@@ -140,4 +140,21 @@ body
 .Suggestion #Container{
     border: green solid;
 }
+.Container{
+
+     border: black solid;
+     margin-left: 141px;
+    margin-top: 46px;
+    padding-left: 36px;
+    border-top-width: 4px;
+    padding-top: 18px;
+    padding-bottom: 33px;
+    border-radius: 15px;
+    height: 377px;
+    width: 531px;
+}
+.formgroup input{
+
+    border-radius: 15px;
+}
 
