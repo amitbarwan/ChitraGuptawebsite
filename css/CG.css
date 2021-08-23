@@ -2,6 +2,7 @@
 
     text-align: center;
     margin-top: 0px;
+    
     /* background-color: #d1ba90; */
 }
 #header h1{
@@ -42,7 +43,7 @@
     width: 50px;
     
 }
-  img{
+img{
     width: 69px;
     /* margin-left: 400px; */
     margin-bottom: 0%;
@@ -75,6 +76,7 @@
   .tabHeader button:hover{
       /* background-color: orange; */
       color: orange;
+      text-decoration: underline;
       
   }
 body
