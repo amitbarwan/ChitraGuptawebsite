@@ -142,7 +142,7 @@ body
 }
 .Container{
 
-     border: black solid;
+     /* border: black solid; */
      margin-left: 141px;
     margin-top: 46px;
     padding-left: 36px;
@@ -152,9 +152,14 @@ body
     border-radius: 15px;
     height: 377px;
     width: 531px;
+    background-color: rgb(228, 79, 79);
+    
 }
 .formgroup input{
 
     border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;margin: 5px;
+   
 }
 
