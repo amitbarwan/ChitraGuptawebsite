@@ -9,6 +9,11 @@ function TabContentOver(event,TabName){
 
     let para = document.getElementById(TabName);
     para.style.display="block";
+   let bodyimg = document.getElementsByClassName('bodyimg');
+   console.log(bodyimg);
+   bodyimg.getElementById("img").style.display="none";
+    
+
    //  evt.currentTarget.className += " active";
 }
 // function TabContentOut(TabName){

@@ -163,4 +163,16 @@ body
     border: black;
    
 }
+.bodyimg{
+    display: inline-block;
+    /* width: 5000px;
+    height: 5000px; */
+}
+.bodyimg img{
+
+    width: 1487px;
+    height: 500.125px;
+    padding-bottom: 0px;
+    border-bottom-width: 0px;
+}
 
