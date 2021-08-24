@@ -16,6 +16,7 @@
  .tabContent{
     display: none;
     font-family: cursive;
+    font-size: 22px;
 
 }
 #Home img,#CoreTeam img{
@@ -130,7 +131,7 @@ body
     padding-top: 0px;
     padding-bottom: 8px; */
     /* background-color: green; */
-    color: blue;
+    /* color: blue; */
 }
 .gallery{
     /* border: green solid; */
@@ -219,5 +220,9 @@ body
     color: green;
     background-color:white;
     
+}
+details a{
+    color: green ;
+    font-size: 25px;
 }
 
