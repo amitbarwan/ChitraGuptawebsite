@@ -81,7 +81,7 @@ img{
       text-decoration: underline;
       
   }
-body
+ body
 {
     /* background-color: rgb(228, 208, 208); */
     /* display: block; */
@@ -224,5 +224,16 @@ body
 details a{
     color: green ;
     font-size: 25px;
+}
+.bodybackground img{
+
+    border-radius: 50%;
+     width: 1000px;
+     height: 800px;
+    margin-left: 290px; 
+    margin-top: 5px;
+}
+.bodybackground {
+    background-color:none;
 }
 
