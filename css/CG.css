@@ -132,7 +132,7 @@ body
     /* background-color: green; */
     color: blue;
 }
-#Donation,#Gallery{
+.gallery{
     /* border: green solid; */
     width: 600px;
     height: 850px;
@@ -145,7 +145,7 @@ body
     margin-top: 72px;
     padding-left: 90px; */
 }
-#Gallery img{
+.gallery img{
 
     border: black solid;
     width: 200px;
