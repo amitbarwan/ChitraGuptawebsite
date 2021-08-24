@@ -2,6 +2,7 @@ function TabContentOver(event,TabName){
    let Overbtn =  document.getElementsByClassName("btnclass");
    let tabcontents = document.getElementsByClassName('tabContent');
    console.log(tabcontents.length)
+   console.log(TabName)
    for(let i=0;i<tabcontents.length;++i)
    {
       tabcontents[i].style.display="none";
@@ -9,7 +10,7 @@ function TabContentOver(event,TabName){
 
     let para = document.getElementById(TabName);
     para.style.display="block";
-   let bodyimg = document.getElementsByClassName('bodyimg');
+   // let bodyimg = document.getElementsByClassName('bodyimg');
    document.getElementById('backimage').style.display = 'none';
    
    // backImage.style.display="none";
