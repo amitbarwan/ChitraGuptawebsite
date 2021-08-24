@@ -8,8 +8,8 @@
 #header h1{
 
     margin-top: 0px;
-    color: white;
-    font-size: 20px;
+    color: white
+    font-size: 40px;
     /* font-family: cursive; */
     position: static;
 }
@@ -18,7 +18,7 @@
     font-family: cursive;
 
 }
-.tabContent  img{
+.tabContent img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -156,7 +156,8 @@ body
     border-radius: 15px;
     height: 377px;
      width: 663px;
-    background-color: rgb(228, 79, 79);
+    /* background-color: rgb(228, 79, 79); */
+    background-color: rgb(179, 240, 164);
     
 }
 .formgroup input,select{
