@@ -172,9 +172,10 @@ body
 }
 .bodyimg img{
 
-    width: 1487px;
-    height: 500.125px;
+    width: 1500px;
+    height: 600.125px;
     padding-bottom: 0px;
     border-bottom-width: 0px;
+    position: 20px*30px;
 }
 
