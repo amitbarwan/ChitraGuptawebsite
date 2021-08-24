@@ -81,12 +81,14 @@ img{
   }
 body
 {
-    background-color: rgb(228, 208, 208);
+    /* background-color: rgb(228, 208, 208); */
     /* display: block; */
     margin: 8px;
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    background-color: black;
+    color: white;
 }
 #Address{
 
