@@ -134,7 +134,7 @@ body
 }
 .gallery{
     /* border: green solid; */
-    width: 600px;
+    width: 850px;
     height: 850px;
     margin-left: 20px;
    /* display: block;
@@ -190,5 +190,34 @@ body
     padding-bottom: 0px;
     border-bottom-width: 0px;
     position: 20px*30px;
+}
+.pridegroup a{
+
+    color: rgb(40, 235, 33);
+    font-size: 20px;
+    /* text-decoration:none; */
+    margin-left: 20px;
+    
+} 
+.about{
+
+    /* border: green solid; */
+   text-align: center;
+   font-size: 40px;
+   display: block;
+   
+}
+.about img{
+    margin-left: 40px;
+    border: black solid;
+    width: 250px;
+}
+.about #Mission{
+    font-size: 25px;
+}
+.about #welcome{
+    color: green;
+    background-color:white;
+    
 }
 
