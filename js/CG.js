@@ -12,6 +12,7 @@ function TabContentOver(event,TabName){
     para.style.display="block";
    // let bodyimg = document.getElementsByClassName('bodyimg');
    document.getElementById('backimage').style.display = 'none';
+   document.getElementById('backimageMantra').style.display = 'none';
    
    // backImage.style.display="none";
    // console.log(bodyimg);

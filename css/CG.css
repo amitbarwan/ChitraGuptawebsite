@@ -212,13 +212,17 @@ img{
     margin-left: 40px;
     border: black solid;
     width: 250px;
+    display: block;
+    margin-left: 700px;
+    
 }
 .about #Mission{
     font-size: 25px;
 }
 .about #welcome{
-    color: green;
-    background-color:white;
+    color: white;
+    background-color:rgb(17, 16, 16);
+    display: inline-block;
     
 }
 details a{
@@ -227,10 +231,11 @@ details a{
 }
 .bodybackground img{
 
-    border-radius: 50%;
-     width: 1000px;
-     height: 800px;
-    margin-left: 290px; 
+    /* border-radius: 2%; */
+    width: 1620px;
+    height: 600px;
+    margin-left: 2px; 
+    /* margin-right: 5px;  */
     margin-top: 5px;
 }
 .bodybackground {
