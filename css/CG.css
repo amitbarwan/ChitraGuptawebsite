@@ -241,4 +241,17 @@ details a{
 .bodybackground {
     background-color:none;
 }
+.mission{
+    /* margin-right: 998px; */
+    font-size: 40px;
+    text-align: left;
+    /* margin-left: 50px; */
+    color: green;
+}
+.missionid{
+    font-size: 21px;
+    margin-right:  400px;
+    /* margin-right: 300px; */
+   
+}
 
