@@ -256,12 +256,13 @@ details a{
 }
 /* On mouse movement background is changed with transition*/
 .body{
-    transition-property: background-color ;
+    transition-property: background-color color;
     transition-duration: 4s;
    transition-timing-function: ease-in-out;
 }
 body:hover{
     background-color:rgb(236, 65, 107);
+    color: yellow;
     
 }
 
