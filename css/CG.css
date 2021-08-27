@@ -91,9 +91,9 @@ img{
     margin-left: 0px;
     background-color: maroon;
     color: white;
-   
     
 }
+
 #Address{
 
     /* border: green solid; */
@@ -253,5 +253,15 @@ details a{
     margin-right:  400px;
     /* margin-right: 300px; */
    
+}
+/* On mouse movement background is changed with transition*/
+.body{
+    transition-property: background-color ;
+    transition-duration: 4s;
+   transition-timing-function: ease-in-out;
+}
+body:hover{
+    background-color:rgb(236, 65, 107);
+    
 }
 
