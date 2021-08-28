@@ -234,9 +234,10 @@ details a{
     /* border-radius: 2%; */
     width: 1620px;
     height: 600px;
-    margin-left: 2px; 
+    /* margin-left: 2px;  */
     /* margin-right: 5px;  */
     margin-top: 5px;
+    margin-left: 57px;
 }
 .bodybackground {
     background-color:none;
@@ -255,7 +256,7 @@ details a{
    
 }
 /* On mouse movement background is changed with transition*/
-.body{
+/* .body{
     transition-property: background-color color;
     transition-duration: 4s;
    transition-timing-function: ease-in-out;
@@ -264,5 +265,5 @@ body:hover{
     background-color:rgb(236, 65, 107);
     color: yellow;
     
-}
+} */
 
