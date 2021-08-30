@@ -41,3 +41,16 @@ function displaytime() {
    document.getElementById('time').innerHTML = time;
 }
 setInterval(displaytime, 1000);
+//HideShow() => To hide show swastik image
+// function HideShow(){
+
+    
+//    let pic = document.getElementById('swastik');
+//    // alert("Pics");
+//    console.log(pic);
+//    if(pic.style.display!='none')
+//        pic.style.display='none';
+//    else
+//        pic.style.display='block'
+// }
+// setInterval(HideShow, 1000);

@@ -1,17 +1,18 @@
+
 #header{
 
     text-align: center;
     margin-top: 0px;
+   
     
     /* background-color: #d1ba90; */
 }
 #header h1{
-
-    margin-top: 0px;
     color: white
     font-size: 40px;
     /* font-family: cursive; */
     position: static;
+    
 }
  .tabContent{
     display: none;
@@ -39,11 +40,17 @@
     border-radius: 50%;
     width: 20px;
     height: 20px;
+   
+}
+#headerPics{
+
+    /* margin-left: 850px; */
+   
 }
 #headerPics img{
     border-radius: 50%;
     width: 50px;
-    
+   
 }
 img{
     width: 69px;
@@ -58,6 +65,7 @@ img{
     overflow: hidden;
     /* border: 1px solid #ccc; */
     background-color: #f1f1f1;
+    
   
   }
   .tabHeader button {
@@ -110,6 +118,7 @@ img{
 }
 #color{
     background-color: black;
+    
 }
 .member{
     /* border: green solid; */
@@ -184,14 +193,14 @@ img{
     /* width: 5000px;
     height: 5000px; */
 }
-.bodyimg img{
+/* .bodyimg img{
 
     width: 1500px;
     height: 600.125px;
     padding-bottom: 0px;
     border-bottom-width: 0px;
     position: 20px*30px;
-}
+} */
 .pridegroup a{
 
     color: rgb(40, 235, 33);
